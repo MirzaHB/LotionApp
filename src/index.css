@@ -1,0 +1,132 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 2px solid rgb(186, 186, 186);
+}
+
+.Header{
+  position: absolute;
+  right: 43.5%;
+}
+.Header h1{
+  text-align: center;
+}
+nav button{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+nav button:hover{
+  background-color: darkgray;
+}
+
+.SideBar{
+  width: 20%;
+  height: 100vh;
+  border-right: 2px solid rgb(186, 186, 186);
+}
+.SideBar_header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(186, 186, 186);
+  height: 7%;
+}
+.SideBar_header h2{
+  padding-top: 5px;
+}
+.SideBar_header button{
+  background-color: transparent;
+  border: none;
+  width: 35px;
+}
+
+.SideBar_header button:hover{
+  background-color: darkgray;
+}
+
+.Side_Main{
+  display: flex;
+}
+.Main{
+  width: 100%;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  border-bottom: 3px solid rgb(186, 186, 186);
+  padding-left: 1%;
+}
+.main-header #title{
+  width: 90%;
+  border: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#title:focus{
+  outline: none;
+}
+.main-header button{
+  background: transparent;
+  border: none;
+  height: 100%;
+}
+.body{
+  display: flex;
+}
+.main-header button:hover{
+  background-color: darkgray;
+}
+
+.sidebar-note:hover{
+  background-color: rgb(61, 45, 82);
+}
+#fancy_datepicker{
+  border: none;
+}
+.inner_head{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#default_txt{
+  font-size: 2em;
+  color: rgb(81, 87, 94);
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 25%;
+}
+.main-body{
+  height: 100%;
+}
+.temp{
+  width: 100%;
+  border: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#body{
+  height: 100vh;
+}
