@@ -1,3 +1,3 @@
 # Lotion
 
-Created after 1 week of learning react
+An app to take notes. The app uses local storage to save notes. 
